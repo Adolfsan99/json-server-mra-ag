@@ -11,6 +11,8 @@ Para visualizar el proyecto, utiliza LiveServer en Visual Studio Code
   Clic derecho "Open with LiveServer"
 ```
 
+Otra alternativa es acceder a https://adolfsan99.github.io/json-server-mra-ag/
+
 Al interactuar con la pagina web, se puede ver que la base de datos (db.json) se actualiza en tiempo real
 
 Es decir, estamos editando y modificando este archivo JSON que se encuentra en la raiz del proyecto, y la pagina web se actualiza dinamicamente
