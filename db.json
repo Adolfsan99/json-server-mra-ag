@@ -1,7 +1,7 @@
 {
   "tarjetas": [
     {
-      "id": 1,
+      "id": "1",
       "categoria": "Shounen",
       "imagenFondo": "./img/dbz/dragon-ball-z.jpeg",
       "imagenSuperior": "./img/dbz/character.png",
@@ -9,7 +9,7 @@
       "enlace": "https://www3.animeflv.net/anime/dragon-ball-z"
     },
     {
-      "id": 2,
+      "id": "2",
       "categoria": "Shounen",
       "imagenFondo": "./img/ss/saint-seiya.jpg",
       "imagenSuperior": "./img/ss/character.png",
@@ -17,7 +17,7 @@
       "enlace": "https://www3.animeflv.net/anime/saint-seya"
     },
     {
-      "id": 3,
+      "id": "3",
       "categoria": "Shounen",
       "imagenFondo": "./img/jjba/jojo_part1-phantom-blood.jpg",
       "imagenSuperior": "./img/jjba/character.png",
@@ -25,7 +25,7 @@
       "enlace": "https://www3.animeflv.net/anime/jojos-bizarre-adventure-the-animation"
     },
     {
-      "id": 4,
+      "id": "4",
       "categoria": "Shounen",
       "imagenFondo": "./img/mb/megalo-box.jpg",
       "imagenSuperior": "./img/mb/character.png",
@@ -33,7 +33,7 @@
       "enlace": "https://www3.animeflv.net/anime/megalo-box"
     },
     {
-      "id": 5,
+      "id": "5",
       "categoria": "Escolares",
       "imagenFondo": "./img/asc/assassination-classroom.jpg",
       "imagenSuperior": "./img/asc/character.webp",
@@ -41,7 +41,7 @@
       "enlace": "https://www3.animeflv.net/anime/ansatsu-kyoushitsu-tv"
     },
     {
-      "id": 6,
+      "id": "6",
       "categoria": "Escolares",
       "imagenFondo": "./img/gto/great-teacher-onizuka.jpg",
       "imagenSuperior": "./img/gto/character.png",
@@ -49,7 +49,7 @@
       "enlace": "https://www3.animeflv.net/anime/great-teacher-onizuka"
     },
     {
-      "id": 7,
+      "id": "7",
       "categoria": "Escolares",
       "imagenFondo": "./img/gks/gokusen.jpg",
       "imagenSuperior": "./img/gks/character.png",
@@ -57,12 +57,36 @@
       "enlace": "https://www3.animeflv.to/anime/gokusen"
     },
     {
-      "id": 8,
+      "id": "8",
       "categoria": "Acción",
       "imagenFondo": "./img/fmp/full-metal-panic.jpeg",
       "imagenSuperior": "./img/fmp/character.png",
       "título": "Full Metal Panic!",
       "enlace": "https://www3.animeflv.net/anime/full-metal-panic"
+    },
+    {
+      "id": "a747",
+      "título": "Link Click",
+      "categoria": "Suspenso",
+      "imagenFondo": "./img/lc/link-click.jpg",
+      "imagenSuperior": "./img/lc/character.png",
+      "enlace": "https://ww3.animeonline.ninja/online/shiguang-dailiren-link-click/"
+    },
+    {
+      "id": "dd9c",
+      "título": "Viral Hit",
+      "categoria": "Shounen",
+      "imagenFondo": "https://a.storyblok.com/f/178900/1064x1504/19c1a157c2/viral-hit-japan-key-visual.png/m/filters:quality(95)format(webp)",
+      "imagenSuperior": "https://i0.wp.com/genzay.com/wp-content/uploads/2024/02/image-351.png?resize=580%2C1460&ssl=1",
+      "enlace": "https://ww3.animeonline.ninja/online/kenka-dokugaku-viral-hit/"
+    },
+    {
+      "id": "0634",
+      "título": "Kingdom",
+      "categoria": "Shounen",
+      "imagenFondo": "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=480,height=720/catalog/crunchyroll/0b2710bf5a9a23b12b79e4ddcdac4696.jpg",
+      "imagenSuperior": "https://forums.mangas-fr.com/uploads/monthly_2022_01/c_main1_1.png.59e3ef762152bd660ecfed712c46f7e7.png",
+      "enlace": "https://tioanime.com/directorio?q=kingdom"
     }
   ]
 }

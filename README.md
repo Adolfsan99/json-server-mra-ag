@@ -27,4 +27,8 @@ En cambio si utilizamos localhost primero, debemos convertir todas las funcional
 
 ## "Error al cargar las tarjetas de anime. Por favor, intenta más tarde."
 
-Esto se debe a que debes descargar los archivos del proyecto y mediante la consola del Visual Studio en la raiz del proyecto (donde suele ir index.html), ejecutar el comando " npm start "
+Esto se debe a que debes descargar los archivos del proyecto y mediante la consola del Visual Studio en la raiz del proyecto (donde suele ir index.html), ejecutar el comando npm run
+
+## Las imagenes no son visibles
+
+Asegurate de abrir index.html usando LiveServer, y que el link de la extension de imagen, termine en .jpg o .png, si se busca cargar a un personaje esta debe ser obligatoriamente .png
