@@ -29,4 +29,4 @@ En cambio si utilizamos localhost primero, debemos convertir todas las funcional
 
 ## "Error al cargar las tarjetas de anime. Por favor, intenta más tarde."
 
-Esto se debe a que debes descargar los archivos del proyecto y mediante la consola del Visual Studio en la raiz del proyecto (donde suele ir index.html), ejecutar el comando npm run
+Esto se debe a que debes descargar los archivos del proyecto y mediante la consola del Visual Studio en la raiz del proyecto (donde suele ir index.html), ejecutar el comando " npm start "
