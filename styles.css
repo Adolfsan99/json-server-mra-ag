@@ -1,0 +1,232 @@
+:root {
+  --primary-color: #ff6b6b;
+  --bg-color: #1f1f1f;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-color);
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+}
+
+main {
+  flex: 1;
+  padding: 2rem;
+}
+
+.lista {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+  justify-items: center;
+}
+
+.card {
+  transition: all 0.3s ease 0s;
+  position: relative;
+  width: 15rem;
+  height: 20rem;
+  margin: 2rem 2rem 4rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 34px 41px 28px,
+    rgba(0, 0, 0, 0.2) 0px 10px 15px -3px;
+}
+
+.card:hover {
+  transform: perspective(250px) rotate(0deg) translateY(-5%) translateZ(0px);
+  cursor: pointer;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+  border-radius: 10px;
+  opacity: 0;
+  transition: all 0.3s ease 0s;
+}
+
+.card:hover::before {
+  opacity: 1;
+}
+
+.card:hover .card-img-character {
+  opacity: 1;
+  transform: translateY(10%);
+}
+
+.card-img-background {
+  object-fit: cover;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.card-img-character {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  transform: translateY(25%);
+  transition: all 0.3s ease 0s;
+  margin: auto;
+  opacity: 0;
+  width: 100%;
+  max-height: 280px;
+  object-fit: contain;
+}
+
+.card-text-tittle {
+  background-color: aqua;
+  font-family: cursive;
+  text-align: center;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 34px 41px 28px,
+    rgba(0, 0, 0, 0.7) 0px 10px 15px -3px;
+  position: absolute;
+  bottom: -2rem;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.category-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: var(--primary-color);
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  z-index: 10;
+}
+
+.delete-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.delete-icon:hover {
+  background: var(--primary-color);
+}
+
+.add-button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  background: var(--primary-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: var(--bg-color);
+  padding: 2rem;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 500px;
+  position: relative;
+  z-index: 1001;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--primary-color);
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  border-radius: 4px;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: var(--primary-color);
+  color: white;
+}
+
+.btn-secondary {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.2);
+}

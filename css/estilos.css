@@ -1,0 +1,105 @@
+html {
+    background: radial-gradient(circle, rgba(252,134,70,1) 43%, rgba(245,255,0,1) 100%);
+}
+
+body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    color: black;
+}
+
+.lista {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.titulo {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgb(34, 193, 195) 0%, rgb(51, 45, 253) 100%);
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    border-radius: 50px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.card {
+    transition: all 0.3s ease 0s;
+    position: relative;
+    width: 15rem;
+    height: 20rem;
+    margin: 2rem 2rem 4rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 34px 41px 28px, rgba(0, 0, 0, 0.2) 0px 10px 15px -3px;
+}
+
+.card:hover {
+    transform: perspective(250px) rotate(0deg) translateY(-5%) translateZ(0px);
+    cursor: pointer;
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+    border-radius: 10px;
+    opacity: 0;
+    transition: all 0.3s ease 0s;
+}
+
+.card:hover::before {
+    opacity: 1;
+}
+
+.card:hover .card-img-character {
+    opacity: 1;
+    transform: translateY(10%);
+}
+
+.card-img-background {
+    object-fit: cover;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.card-img-character {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    transform: translateY(25%);
+    transition: all 0.3s ease 0s;
+    margin: auto;
+    opacity: 0;
+    width: 100%;
+    max-height: 280px;
+    object-fit: contain;
+}
+
+.card-text-tittle {
+    background-color: aqua;
+    font-family: cursive;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 34px 41px 28px, rgba(0, 0, 0, 0.7) 0px 10px 15px -3px;
+}
+
+@media (max-width: 768px) {
+    .titulo {
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+}

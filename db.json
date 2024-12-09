@@ -1,0 +1,68 @@
+{
+  "tarjetas": [
+    {
+      "id": 1,
+      "categoria": "Shounen",
+      "imagenFondo": "./img/dbz/dragon-ball-z.jpeg",
+      "imagenSuperior": "./img/dbz/character.png",
+      "título": "Dragon Ball Z",
+      "enlace": "https://www3.animeflv.net/anime/dragon-ball-z"
+    },
+    {
+      "id": 2,
+      "categoria": "Shounen",
+      "imagenFondo": "./img/ss/saint-seiya.jpg",
+      "imagenSuperior": "./img/ss/character.png",
+      "título": "Saint Seiya",
+      "enlace": "https://www3.animeflv.net/anime/saint-seya"
+    },
+    {
+      "id": 3,
+      "categoria": "Shounen",
+      "imagenFondo": "./img/jjba/jojo_part1-phantom-blood.jpg",
+      "imagenSuperior": "./img/jjba/character.png",
+      "título": "JoJo Bizzare Adventure",
+      "enlace": "https://www3.animeflv.net/anime/jojos-bizarre-adventure-the-animation"
+    },
+    {
+      "id": 4,
+      "categoria": "Shounen",
+      "imagenFondo": "./img/mb/megalo-box.jpg",
+      "imagenSuperior": "./img/mb/character.png",
+      "título": "Megqalo Box",
+      "enlace": "https://www3.animeflv.net/anime/megalo-box"
+    },
+    {
+      "id": 5,
+      "categoria": "Escolares",
+      "imagenFondo": "./img/asc/assassination-classroom.jpg",
+      "imagenSuperior": "./img/asc/character.webp",
+      "título": "Assesination Classroom",
+      "enlace": "https://www3.animeflv.net/anime/ansatsu-kyoushitsu-tv"
+    },
+    {
+      "id": 6,
+      "categoria": "Escolares",
+      "imagenFondo": "./img/gto/great-teacher-onizuka.jpg",
+      "imagenSuperior": "./img/gto/character.png",
+      "título": "Great Teacher Onizuka",
+      "enlace": "https://www3.animeflv.net/anime/great-teacher-onizuka"
+    },
+    {
+      "id": 7,
+      "categoria": "Escolares",
+      "imagenFondo": "./img/gks/gokusen.jpg",
+      "imagenSuperior": "./img/gks/character.png",
+      "título": "Gokusen",
+      "enlace": "https://www3.animeflv.to/anime/gokusen"
+    },
+    {
+      "id": 8,
+      "categoria": "Acción",
+      "imagenFondo": "./img/fmp/full-metal-panic.jpeg",
+      "imagenSuperior": "./img/fmp/character.png",
+      "título": "Full Metal Panic!",
+      "enlace": "https://www3.animeflv.net/anime/full-metal-panic"
+    }
+  ]
+}
